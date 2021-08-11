@@ -1,1 +1,2 @@
 Esta es la rama destinada a todos los cambios y/o modificaciones que pueda tener esta pagina, una vez terminado todos los cambios se fucionara con la rama master
+2.0
