@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    height: 100vh;
+}
+.logo {
+    width: 10%;
+}
+nav{
+    /* background: rgb(255,255,255);
+    background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 51%, rgba(253,21,32,1) 97%, rgba(253,21,32,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 51%, rgba(253,21,32,1) 97%, rgba(253,21,32,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 51%, rgba(253,21,32,1) 97%, rgba(253,21,32,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#fd1520",GradientType=1); */
+    background-color: white;
+}
+.navbar-light .navbar-nav a{
+    color: black;
+}
+.container-fluid img{
+    width: 100%;
+}
+
+.redes a{
+    text-decoration: none;
+    font-size: 60px;
+    margin-top:10px ;
+}
+.redes .icon-facebook2{
+    color: #159df2;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.redes .icon-whatsapp{
+    color: white;
+    background-color: #00df72;
+    border-radius: 100%;
+}
+.redes .txt{
+    display: none;
+}
+.ver{
+    display: flex;
+
+}
+footer{
+   color: white;
+   background-color: #fd1520;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer h5{
+    padding: 20px;
+    opacity: 80%;
+}
+footer .separar {
+    height: 20vh;
+    width: 10vh;
+    background-color: solid black;
+    margin: 20px;
+    transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+}
+@media screen and (max-width:425px){
+    .logo {
+        width: 40%;
+    }
+    .container-fluid img{
+        width: 100%;
+    }
+    .redes a{
+        font-size: 50px;
+    }
+    footer{
+        align-items: center;
+        text-align: center;
+        margin-top: 78px;
+    }
+    footer .texto{
+        flex-direction: column;
+    }
+    footer .separar {
+        padding: 1.5px;
+        height: 100%;
+        width: 90%;
+        background-color: solid black;
+        margin: 20px;
+        transform:rotate(0deg);
+        -o-transform:rotate(0deg);
+        -moz-transform:rotate(0deg);
+        -webkit-transform:rotate(0deg);
+    }
+}
+  

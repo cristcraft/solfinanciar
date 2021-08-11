@@ -1,0 +1,20 @@
+article{
+    margin: 10px auto;
+    justify-content: center;
+    display: flex;
+
+}
+.card1{
+    margin: 10px auto;
+    padding: 10px;
+}
+.card1:hover{
+    
+    transition: .3s ease-in-out;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width:425px){
+    .card1{
+        transform: scale(.9);
+    }
+}
