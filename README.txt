@@ -5,3 +5,5 @@ Esta es la version publicada y por el momneto la final ademas la pagina fue fina
 Igualmente puede tener cambiaos que seran agregados posteriormente al repositorio
 
 No se cuenta con un repositorio previo en git, ya que al tiempo en que se realizo no contaba con el mismo
+
+Link de la pagina en funcionamieto: http://solfinanciar.com/
