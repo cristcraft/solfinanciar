@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/estilos-index.css">
     <link rel="stylesheet" href="css/animaciones.css">
     <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="./css/estilos-video.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RQK1C3LRZY"></script>
@@ -59,91 +60,113 @@
         </div>
     </nav>
     </header>
-    <section class="content">
-      <div class="slider">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div class="contenedor_padre m-3">
+      <section class="content">
+        <div class="slider">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="5000">
+                <img src="imagenes/slider1.webp" class="d-block w-100 slider1 original-position" alt="Solfinanciar">
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="imagenes/loby2.webp" class="d-block w-100 slider2 original-position" alt="Lobby">
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="imagenes/logo3.webp" class="d-block w-100 slider3 original-position" alt="Solfinanciar">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="5000">
-              <img src="imagenes/logo3.webp" class="d-block w-100" alt="Solfinanciar">
-            </div>
-            <div class="carousel-item" data-bs-interval="5000">
-              <img src="imagenes/loby2.webp" class="d-block w-100" alt="Lobby">
-            </div>
-            <div class="carousel-item">
-              <img src="imagenes/loby1.webp" class="d-block w-100" alt="Lobby">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
-      </div>
+    
+        <article class="slideLeft">
+          <div class="texto">
+            <h2>¿Quiénes somos?</h2>
+            <p>Solfinanciar es una empresa dedicada al otorgamiento de créditos de manera fácil, rápida y segura, que busca prestar el servicio de acceso a créditos no bancarios de manera personal a empleados, pensionados e independientes, con sede en Ibague cubriendo el departamento del Tolima</p>  
+          </div>
+          <div class="cards">
+            <div class="card1">
+              <h3>Préstamos:</h3>
+              <ul>
+                <li class="icon-user-check"><a href="paginasPrestamos/requisitos.html"> Empleados</a></li>
+                <li class="icon-user-check"><a href="paginasPrestamos/requisitos.html"> Pensionados</a></li>
+                <li class="icon-user-check"><a href="paginasPrestamos/requisitos.html"> Independientes</a></li>
+                <li class="icon-user-check"><a href="paginasPrestamos/requisitos.html"> Empleados con salario mínimo</a></li>
+                <li class="icon-user-check"><a href="paginasPrestamos/requisitos.html"> Contratistas</a></li>
+              </ul>
+            </div>
+            <div class="card1">
+                <h3>Estudio en 2 horas</h3>
+                <h4>
+                  Crédito desde: <br>
+                  $400.000 a $2.000.000
+                </h4>
+                <button class="btn pulse btn-dark">No se consulta DATACREDITO</button>
+                <a href="paginasPrestamos/requisitos.html">Consulta los requisitos aquí*</a>
+            </div>
+          </div>
+          </ul>
+
+        </article>
   
-      <article class="slideLeft">
-        <div class="texto">
-          <h2>¿Quiénes somos?</h2>
-          <p>Solfinanciar es una empresa dedicada al otorgamiento de créditos de manera fácil, rápida y segura, que busca prestar el servicio de acceso a créditos no bancarios de manera personal a empleados, pensionados e independientes, con sede en Ibague cubriendo el departamento del Tolima</p>  
+        <article class="mapa">
+          <div class="texto">
+            <h2>Encuentranos aquí</h2>
+            <span class="hatch icon-location2"></span>
+          </div>     
+            <iframe src="https://www.google.com/maps/embed?pb=!3m2!1ses!2sco!4v1620961091737!5m2!1ses!2sco!6m8!1m7!1suLDHODIh9avjaADyasUQSQ!2m2!1d4.443129924453242!2d-75.24103137284274!3f298.9891393140234!4f12.700136093327657!5f0.7820865974627469" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
+        </article>
+  
+      </section>
+      <aside class="publicidad d-flex flex-column">
+        <div class="video">
+          <video controls="controls" autoplay="autoplay" width="100%" muted >
+            <source src="./imagenes/san_valentin.mp4" type="video/mp4">
+          </video>
         </div>
-        <div class="cards">
-          <div class="card1">
-            <h3>Préstamos:</h3>
-            <ul>
-              <li class="icon-user-check"><a href="paginasPrestamos/requisitos.html"> Empleados</a></li>
-              <li class="icon-user-check"><a href="paginasPrestamos/requisitos.html"> Pensionados</a></li>
-              <li class="icon-user-check"><a href="paginasPrestamos/requisitos.html"> Independientes</a></li>
-              <li class="icon-user-check"><a href="paginasPrestamos/requisitos.html"> Empleados con salario mínimo</a></li>
-              <li class="icon-user-check"><a href="paginasPrestamos/requisitos.html"> Contratistas</a></li>
-            </ul>
-          </div>
-          <div class="card1">
-              <h3>Estudio en 2 horas</h3>
-              <h4>
-                Crédito desde: <br>
-                $400.000 a $2.000.000
-              </h4>
-              <button class="btn pulse btn-dark">No se consulta DATACREDITO</button>
-              <a href="paginasPrestamos/requisitos.html">Consulta los requisitos aquí*</a>
-          </div>
+        <div class="video no-mobile">
+          <video autoplay="autoplay" width="100%" loop muted >
+            <source src="./imagenes/san_valentin_publicidad.mp4" type="video/mp4">
+          </video>
         </div>
-        </ul>
-      </article>
-
-      <article class="mapa">
-        <div class="texto">
-          <h2>Encuentranos aquí</h2>
-          <span class="hatch icon-location2"></span>
-        </div>     
-          <iframe src="https://www.google.com/maps/embed?pb=!3m2!1ses!2sco!4v1620961091737!5m2!1ses!2sco!6m8!1m7!1suLDHODIh9avjaADyasUQSQ!2m2!1d4.443129924453242!2d-75.24103137284274!3f298.9891393140234!4f12.700136093327657!5f0.7820865974627469" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
-      </article>
-
-    </section>
-  <footer>
+        <div class="imagen no-mobile">
+          <img src="./imagenes/publicidad.webp" alt="Solfinanciar">
+        </div>
+      </aside>
+    </div>
+  <footer >
           <div class="row gx-0">
               <div class="texto d-flex justify-content-center">
-                  <h5>Calle 12N° 2-43 3cer.Piso Of.309 Edificio Pomponá</h5>
+                <div class="d-flex flex-column">
+                    <h5>Tel. 259 63 36</h5>
+                    <a href="https://wa.me/573118191497/?text="><h5><span class="icon-whatsapp"></span>Cel. 311 819 1497</h5></a>
+                    <a href="https://wa.me/573158512554/?text="><h5><span class="icon-whatsapp"></span>Cel. 315 851 2554</h5></a>
+                  </div>
                   <hr class="separar">
-                  <h5>Tel. 259 63 36</h5>
-                  <a href="https://wa.me/573118191497/?text="><h5><span class="icon-whatsapp"></span>Cel. 311 819 1497</h5></a>
-                  <a href="https://wa.me/573158512554/?text="><h5><span class="icon-whatsapp"></span>Cel. 315 851 2554</h5></a>
+                    <h5>Calle 12N° 2-43 3cer.Piso Of.309 Edificio Pomponá</h5>
                   <hr class="separar">
-                  <h5>solfinanciera.credito@hotmail.com</h5>
+                  <a href="mailto:solfinanciera.credito@hotmail.com"><h5>solfinanciera.credito@hotmail.com</h5></a>
               </div>
           </div>
   </footer>
-  <div class="redes position-fixed d-flex flex-column bottom-0 end-0">
+
+  <div class="redes position-fixed d-flex flex-column bottom-0 end-0 p-3">
     <a class="icon-facebook2" href=""></a>
     <a class="icon-whatsapp" href="https://wa.me/573118191497/?text=Hola+quiero+saber+mas+sobre+su+trabajo"></a>
   </div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
 </body>
 </html>
