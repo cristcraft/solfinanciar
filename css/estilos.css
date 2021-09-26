@@ -1,7 +1,10 @@
+header{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
 body{
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
+    background-color: whitesmoke;
     height: 100vh;
 }
 .logo {
@@ -46,15 +49,16 @@ nav{
 
 }
 footer{
-   color: white;
-   background-color: #fd1520;
+    padding: 40px;
+    margin-top: 20px;
+    color: white;
+    background-color: #fd1520;
 }
 footer a{
     text-decoration: none;
     color: white;
 }
 footer h5{
-    padding: 20px;
     opacity: 80%;
 }
 footer .separar {
@@ -67,7 +71,7 @@ footer .separar {
     -moz-transform:rotate(90deg);
     -webkit-transform:rotate(90deg);
 }
-@media screen and (max-width:425px){
+@media screen and (max-width:720px){
     .logo {
         width: 40%;
     }
@@ -97,4 +101,3 @@ footer .separar {
         -webkit-transform:rotate(0deg);
     }
 }
-  
